@@ -1,0 +1,92 @@
+.about-instructor {
+    position: relative;
+    top: 180px;
+    background-color: #007bff;
+   max-height: 100%;
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+
+.about-instructor .about {
+    text-align: center;
+    padding: 20px 0;
+    line-height: 30px;
+    color: #ffff;
+}
+
+.about-instructor .instructor-info {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    gap: 20px;
+}
+
+.about-instructor .instructor-info .info-box {
+    background: #ffff;
+    border-radius: 5px;
+    width: max-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s;
+    box-shadow: rgba(20, 20, 20, 0.849) 0px 1px 5px;
+    /* line-height: 41px; */
+}
+
+.about-instructor .instructor-info .info-box:hover {
+    transform: translateY(-8px);
+}
+
+.about-instructor .instructor-info .info-box .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+    /* background: blueviolet; */
+    margin-top: 10px;
+    /* border: 1px solid green; */
+}
+
+.about-instructor .instructor-info .info-box .img img {
+    /* max-width: 100%; */
+    height: 100%;
+    border-radius: 10%;
+    /* background-size: 100px; */
+}
+
+.about-instructor .instructor-info .info-box .name {
+    margin-top: 20px;
+    color: #000;
+}
+
+.about-instructor .instructor-info .info-box .about-instructor-text {
+    color: #000;
+    padding: 10px 20px;
+    text-align: start;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+
+.about-instructor .instructor-info ion-icon {
+    font-size: 1.7em;
+    margin: 10px 10px;
+    transition: 0.5s;
+}
+
+.about-instructor .instructor-info ion-icon:hover {
+    transform: translateY(-5px);
+}
+
+
+.footer {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    background-color: #007bff;
+    padding: 30px;
+    color: white;
+    font-size: 1.5em;
+}
